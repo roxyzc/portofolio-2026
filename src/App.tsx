@@ -313,21 +313,21 @@ function App() {
                   </p>
 
                   <p className="text-xs text-indigo-300 mt-1">
-                    Anggota & Humas Kegiatan
+                    Anggota & Logistik Acara
                   </p>
 
                   <ul className="list-disc list-outside pl-4 mt-2 text-xs text-gray-300 space-y-1">
                     <li>
                       Berpartisipasi dalam penyelenggaraan event budaya Jepang
-                      di sekolah.
+                      di sekolah
                     </li>
                     <li>
-                      Bertugas sebagai humas dalam koordinasi kegiatan dan
-                      komunikasi acara.
+                      Menyiapkan dan membantu distribusi perlengkapan yang
+                      dibutuhkan selama acara berlangsung
                     </li>
                     <li>
                       Menjadi MC dalam acara penyambutan guru tamu (Sensei) dari
-                      Jepang.
+                      Jepang
                     </li>
                   </ul>
                 </div>
