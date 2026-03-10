@@ -4,8 +4,8 @@ import CV from "./assets/CV.pdf";
 function App() {
   return (
     <div className="relative min-h-screen w-full bg-linear-to-br from-slate-900 via-indigo-950 to-slate-900 overflow-hidden">
-      <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 rounded-full blur-[140px] opacity-30"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-600 rounded-full blur-[140px] opacity-30"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-purple-600 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-600 rounded-full blur-3xl opacity-30"></div>
 
       <div className="relative p-4 flex flex-col lg:flex-row min-h-screen lg:h-screen lg:gap-6">
         <div className="w-full lg:flex-3 flex items-center justify-center py-8 lg:py-0">
@@ -85,7 +85,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-full lg:flex-2 lg:overflow-y-auto gap-5 border border-white/20 rounded-2xl p-6 text-white bg-white/10 backdrop-blur-md shadow-xl scrollbar-hide">
+        <div className="w-full lg:flex-2 lg:overflow-y-auto gap-5 border border-white/20 rounded-2xl p-6 text-white bg-white/10 backdrop-blur-sm shadow-xl scrollbar-hide">
           <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
               About
@@ -295,7 +295,7 @@ function App() {
               </h2>
             </div>
 
-            <div className="text-sm py3">
+            <div className="text-sm py-3">
               <div className="flex flex-col gap-6 py-4 border-b border-white/10 border-dashed">
                 <div className="w-full space-y-2">
                   <h4 className="font-semibold text-white">
