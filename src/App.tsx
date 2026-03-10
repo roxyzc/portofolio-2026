@@ -93,18 +93,25 @@ function App() {
 
             <div className="text-sm py-3">
               <div className="flex flex-col md:flex-row gap-6 py-4">
-                <div className="w-full md:flex-2 text-justify text-xs text-gray-300 ">
-                  Saya memiliki ketertarikan yang kuat pada dunia pemrograman
-                  dan senang membangun server yang aman, andal, dan efisien.
-                  Saya mampu bekerja secara kolaboratif dalam tim serta cepat
-                  memahami konsep baru dalam pengembangan web. Saya juga terbuka
-                  terhadap tantangan baru, terutama yang melibatkan teknologi
-                  terkini untuk meningkatkan keterampilan dan wawasan saya dalam
-                  pengkodean. Saya berkomitmen untuk terus berkembang sebagai
-                  seorang Backend Developer dengan mengikuti tren industri dan
-                  terus belajar. Saya percaya kemampuan teknis saya, didukung
-                  kemauan untuk terus belajar, dapat membantu saya memberikan
-                  kontribusi yang berarti dalam tim.
+                <div className="w-full md:flex-2 text-justify text-md text-gray-300 flex-col space-y-2">
+                  <p>
+                    Ridho Pikriyansyah adalah seorang programmer dengan minat
+                    mendalam pada pemrograman dan pembangunan server yang aman,
+                    handal, dan efisien. Kapasitas teknis yang mencakup berbagai
+                    bahasa pemrograman juga diperkuat dengan keinginan untuk
+                    terus belajar dan berkembang. Ia selalu menyambut setiap
+                    perkembangan teknologi terbaru sebagai kesempatan untuk
+                    beradaptasi dan mengasah kemampuannya. Pendekatan itu juga
+                    menjiwai kapasitas interpersonal yang membuatnya tidak asing
+                    dengan pendekatan kolaboratif dalam tim. Ia telah
+                    menyelesaikan berbagai proyek baik dalam konteks individu
+                    maupun tim di berbagai bidang praktis.
+                  </p>
+
+                  <blockquote className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-gray-300 italic">
+                    "Disruption only disrupts when you stop growing and adapting
+                    to it."
+                  </blockquote>
                 </div>
               </div>
             </div>
