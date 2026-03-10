@@ -288,15 +288,15 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col py-3">
+          <div className="flex flex-col">
             <div className="flex flex-col py-3">
               <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-l-4 pl-3">
                 Project
               </h2>
             </div>
 
-            <div className="text-sm py-3">
-              <div className="flex flex-col gap-6 py-4">
+            <div className="text-sm py3">
+              <div className="flex flex-col gap-6 py-4 border-b border-white/10 border-dashed">
                 <div className="w-full space-y-2">
                   <h4 className="font-semibold text-white">
                     Bus Management System - Ticket Reservation
