@@ -88,6 +88,30 @@ function App() {
         <div className="w-full lg:flex-2 lg:overflow-y-auto gap-5 border border-white/20 rounded-2xl p-6 text-white bg-white/10 backdrop-blur-md shadow-xl scrollbar-hide">
           <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
+              About
+            </h2>
+
+            <div className="text-sm py-3">
+              <div className="flex flex-col md:flex-row gap-6 py-4">
+                <div className="w-full md:flex-2 text-justify text-xs text-gray-300 ">
+                  Saya memiliki ketertarikan yang kuat pada dunia pemrograman
+                  dan senang membangun server yang aman, andal, dan efisien.
+                  Saya mampu bekerja secara kolaboratif dalam tim serta cepat
+                  memahami konsep baru dalam pengembangan web. Saya juga terbuka
+                  terhadap tantangan baru, terutama yang melibatkan teknologi
+                  terkini untuk meningkatkan keterampilan dan wawasan saya dalam
+                  pengkodean. Saya berkomitmen untuk terus berkembang sebagai
+                  seorang Backend Developer dengan mengikuti tren industri dan
+                  terus belajar. Saya percaya kemampuan teknis saya, didukung
+                  kemauan untuk terus belajar, dapat membantu saya memberikan
+                  kontribusi yang berarti dalam tim.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col py-3">
+            <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
               Experience
             </h2>
 
@@ -222,7 +246,7 @@ function App() {
                   </h4>
 
                   <p className="text-xs text-gray-400">
-                    2023 - 2024 • Jakarta, Indonesia • Hybrid
+                    2023 - 2024 • Bekasi, Indonesia • Hybrid
                   </p>
 
                   <p className="text-xs text-indigo-300 mt-1">
@@ -383,7 +407,12 @@ function App() {
                   </p>
                   <p className="text-xs text-gray-400">Expired: 2026 - 2029</p>
 
-                  <p className="text-xs text-indigo-300 mt-1">
+                  <p
+                    className="text-xs text-indigo-300 mt-1 cursor-pointer hover:text-indigo-200 hover:scale-101 transition duration-300 ease-in-out"
+                    onClick={() =>
+                      window.open("https://temank3.kemnaker.go.id/", "_blank")
+                    }
+                  >
                     Kementerian Ketenagakerjaan Republik Indonesia (Kemnaker)
                   </p>
                 </div>
@@ -399,7 +428,14 @@ function App() {
                   </p>
                   <p className="text-xs text-gray-400">Issued: 2022</p>
 
-                  <p className="text-xs text-indigo-300 mt-1">Solo Learn</p>
+                  <p
+                    className="text-xs text-indigo-300 mt-1 cursor-pointer hover:text-indigo-200 hover:scale-101 transition duration-300 ease-in-out"
+                    onClick={() =>
+                      window.open("https://www.sololearn.com", "_blank")
+                    }
+                  >
+                    Solo Learn
+                  </p>
                 </div>
               </div>
             </div>
