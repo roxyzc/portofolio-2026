@@ -289,6 +289,146 @@ function App() {
             </div>
           </div>
           <div className="flex flex-col py-3">
+            <div className="flex flex-col py-3">
+              <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-l-4 pl-3">
+                Project
+              </h2>
+            </div>
+
+            <div className="text-sm py-3">
+              <div className="flex flex-col gap-6 py-4">
+                <div className="w-full space-y-2">
+                  <h4 className="font-semibold text-white">
+                    Bus Management System - Ticket Reservation
+                  </h4>
+
+                  <p className="text-xs text-gray-400">Juni 2023 - Juli 2023</p>
+
+                  <div className="flex flex-wrap gap-3 text-xs text-indigo-300">
+                    <a
+                      href="https://github.com/Akbaroke/ticket-order"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Github (Private)
+                    </a>
+                    <a
+                      href="https://youtu.be/ezXZccs3d8A"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Demo
+                    </a>
+                    <a
+                      href="https://tiket-id.vercel.app/"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Visit
+                    </a>
+                    <a
+                      href="https://documenter.getpostman.com/view/19500855/2s93sdaCVn"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Dokumentasi
+                    </a>
+                  </div>
+                </div>
+
+                <div className="w-full text-gray-200 leading-relaxed text-justify text-xs">
+                  Platform yang memudahkan pengguna untuk memesan atau reservasi
+                  tiket bus untuk perjalanan mereka dengan mudah dan efisien.
+                  Platform ini menawarkan fitur seperti pemesanan tiket,
+                  pemilihan tempat duduk, serta pengelolaan aspek bisnis
+                  transportasi.
+                </div>
+
+                <div className="flex flex-wrap gap-2 pt-2">
+                  <span className="px-2 py-1 text-[10px] bg-indigo-500/20 text-indigo-300 rounded-md border border-indigo-500/30">
+                    React
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-green-500/20 text-green-300 rounded-md border border-green-500/30">
+                    Node.js
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-cyan-500/20 text-cyan-300 rounded-md border border-cyan-500/30">
+                    Tailwind
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-yellow-500/20 text-yellow-300 rounded-md border border-yellow-500/30">
+                    MySQL
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-red-500/20 text-red-300 rounded-md border border-red-500/30">
+                    Laravel
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-sm py-3">
+              <div className="flex flex-col gap-6 py-4">
+                <div className="w-full space-y-2">
+                  <h4 className="font-semibold text-white">
+                    RFID-Based Student Attendance System
+                  </h4>
+
+                  <p className="text-xs text-gray-400">Juni 2025 - Juli 2025</p>
+
+                  <div className="flex flex-wrap gap-3 text-xs text-indigo-300">
+                    <a
+                      href="https://github.com/roxyzc/Presensi-siswa-menggunakan-teknologi-RFID"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Github
+                    </a>
+                    <a
+                      href="https://drive.google.com/file/d/1JSu2H1UV2wJ30_6L7LcbRfCY0PM3Hnaq/view?usp=sharing"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Demo
+                    </a>
+                    <a
+                      href="https://presensiroxyzc.vercel.app/"
+                      target="_blank"
+                      className="hover:text-indigo-400 transition"
+                    >
+                      Visit
+                    </a>
+                  </div>
+                </div>
+
+                <div className="w-full text-gray-200 leading-relaxed text-justify text-xs">
+                  Platform sistem presensi siswa berbasis web yang terintegrasi
+                  dengan teknologi RFID untuk memudahkan pencatatan kehadiran di
+                  sekolah secara cepat dan efisien. Sistem ini menyediakan fitur
+                  seperti pencatatan presensi otomatis menggunakan kartu RFID,
+                  pengelolaan data siswa, serta pembuatan dan pengelolaan
+                  laporan presensi.
+                </div>
+
+                <div className="flex flex-wrap gap-2 pt-2">
+                  <span className="px-2 py-1 text-[10px] bg-indigo-500/20 text-indigo-300 rounded-md border border-indigo-500/30">
+                    React
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-green-500/20 text-green-300 rounded-md border border-green-500/30">
+                    Node.js
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-cyan-500/20 text-cyan-300 rounded-md border border-cyan-500/30">
+                    Tailwind
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-yellow-500/20 text-yellow-300 rounded-md border border-yellow-500/30">
+                    MySQL
+                  </span>
+                  <span className="px-2 py-1 text-[10px] bg-red-500/20 text-red-300 rounded-md border border-red-500/30">
+                    Express
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
               Education
             </h2>
