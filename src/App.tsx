@@ -108,7 +108,7 @@ function App() {
                     maupun tim di berbagai bidang praktis.
                   </p>
 
-                  <blockquote className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-gray-300 italic">
+                  <blockquote className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-gray-300 italic text-center">
                     "Disruption only disrupts when you stop growing and adapting
                     to it."
                   </blockquote>
@@ -301,9 +301,8 @@ function App() {
                   <h4 className="font-semibold text-white">
                     Bus Management System - Ticket Reservation
                   </h4>
-
+                  ev
                   <p className="text-xs text-gray-400">Juni 2023 - Juli 2023</p>
-
                   <div className="flex flex-wrap gap-3 text-xs text-indigo-300">
                     <a
                       href="https://github.com/Akbaroke/ticket-order"
