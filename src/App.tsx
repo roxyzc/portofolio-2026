@@ -95,17 +95,17 @@ function App() {
               <div className="flex flex-col md:flex-row gap-6 py-4">
                 <div className="w-full md:flex-2 text-justify text-md text-gray-300 flex-col space-y-2">
                   <p>
-                    Ridho Pikriyansyah adalah seorang programmer dengan minat
-                    mendalam pada pemrograman dan pembangunan server yang aman,
-                    handal, dan efisien. Kapasitas teknis yang mencakup berbagai
-                    bahasa pemrograman juga diperkuat dengan keinginan untuk
-                    terus belajar dan berkembang. Ia selalu menyambut setiap
-                    perkembangan teknologi terbaru sebagai kesempatan untuk
-                    beradaptasi dan mengasah kemampuannya. Pendekatan itu juga
-                    menjiwai kapasitas interpersonal yang membuatnya tidak asing
-                    dengan pendekatan kolaboratif dalam tim. Ia telah
-                    menyelesaikan berbagai proyek baik dalam konteks individu
-                    maupun tim di berbagai bidang praktis.
+                    Ridho Pikriyansyah is a programmer with deep interests on
+                    programming and building safe, efficient, and capable
+                    servers. His technical capacity encompasses numerous
+                    programming languages that is also bolstered by his drive to
+                    keep on learning and growing. He always welcomes new
+                    technological advances as an opportunity to adapt and hone
+                    his capacity. He also has developed his interpersonal
+                    skills, making him no stranger to collaborative approach in
+                    a team environment. Over the years, he has completed various
+                    projects in both individual and team settings across various
+                    fields.
                   </p>
 
                   <blockquote className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-gray-300 italic text-center">
@@ -139,33 +139,32 @@ function App() {
                 <div className="w-full md:flex-3">
                   <ul className="list-disc list-outside text-xs text-gray-300 space-y-2 pl-4 leading-relaxed">
                     <li>
-                      Mengembangkan dan mengoptimalkan website company profile
-                      untuk meningkatkan tampilan, fungsionalitas, dan
-                      pengalaman pengguna
+                      Developed and optimized the company's website to improve
+                      website functionality, and user experience.
                     </li>
                     <li>
-                      Berpartisipasi dalam perumusan dan implementasi kebijakan
-                      divisi
+                      Participated in the planning and implementation of the
+                      division's policies.
                     </li>
                     <li>
-                      Merancang website internal manajemen untuk menggantikan
-                      sistem lama dan meningkatkan efisiensi
+                      Designed the new internal management website to replace
+                      the old system and improve its efficiency.
                     </li>
                     <li>
-                      Berpartisipasi dalam pelatihan Halo AI untuk divisi
-                      Marketing & Sales
+                      Participated in Halo AI implementation and training for
+                      the marketing & sales division.
                     </li>
                     <li>
-                      Mendukung promosi produk dengan mengoptimalkan konten dan
-                      fitur website
+                      Optimized the website's content and features to support
+                      product marketing.
                     </li>
                     <li>
-                      Mempelajari dan mengimplementasikan teknologi baru untuk
-                      mendukung pengembangan sistem
+                      Learned and implemented new technologies to support system
+                      development.
                     </li>
                     <li>
-                      Menyusun dokumentasi teknis untuk memudahkan tim memahami
-                      sistem dan API
+                      Formulated technical documentation to help the team
+                      understand the API.
                     </li>
                   </ul>
                 </div>
@@ -188,20 +187,20 @@ function App() {
                 <div className="w-full md:flex-3">
                   <ul className="list-disc list-outside text-xs text-gray-300 space-y-2 pl-4 leading-relaxed">
                     <li>
-                      Berpartisipasi dalam pemilihan teknologi dan perancangan
-                      sistem
+                      Participated in system design and technology selection
+                      process.
                     </li>
                     <li>
-                      Bekerja sama lintas divisi untuk menyelaraskan kebutuhan
-                      klien
+                      Carried out cross-division collaboration to align vision
+                      on the clients' needs.
                     </li>
                     <li>
-                      Mendiskusikan alur kerja dan spesifikasi sistem dalam
-                      rapat proyek
+                      Deliberated the workflow and system specification in
+                      project meetings.
                     </li>
                     <li>
-                      Merancang dan mengelola struktur database untuk mendukung
-                      sistem
+                      Designed and managed database structure to support the
+                      system.
                     </li>
                   </ul>
                 </div>
@@ -224,24 +223,24 @@ function App() {
                 <div className="w-full md:flex-3">
                   <ul className="list-disc list-outside text-xs text-gray-300 space-y-2 pl-4 leading-relaxed">
                     <li>
-                      Merancang dan mengembangkan sistem menggunakan Laravel
-                      dengan arsitektur Model- View Controller (MVC)
+                      Designed and developed system through Model-View
+                      Controller (MVC) by using Laravel.
                     </li>
                     <li>
-                      Merancang dan mengelola basis data MySQL, termasuk migrasi
-                      dan relasi tabel
+                      Designed and managed MySQL database, including relational
+                      database and database migration.
                     </li>
                     <li>
-                      Berkolaborasi dalam tim untuk menyelesaikan proyek
-                      capstone berbasis studi kasus bisnis nyata
+                      Collaborated in a team to complete capstone project based
+                      on real-life business study case.
                     </li>
                     <li>
-                      Memimpin empat divisi dan menjadi penghubung antara tim
-                      dan klien untuk memastikan proyek sesuai target
+                      Led four divisions and bridged communication with clients
+                      to ensure projects' timely completion.
                     </li>
                     <li>
-                      Mengelola dan mendistribusikan tugas setiap anggota tim
-                      untuk memastikan proyek selesai tepat waktu
+                      Managed and distributed assignments to each member to
+                      ensure projects' timely completion.
                     </li>
                   </ul>
                 </div>
@@ -264,24 +263,23 @@ function App() {
                 <div className="w-full md:flex-3">
                   <ul className="list-disc list-outside text-xs text-gray-300 space-y-2 pl-4 leading-relaxed">
                     <li>
-                      Merancang dan membangun basis data dari awal, termasuk
-                      relasi tabel dan normalisasi
+                      Designed and developed database from scratch that entails
+                      normalization and relational database.
                     </li>
                     <li>
-                      Bekerja sama dengan tim frontend untuk memastikan
-                      integrasi sistem berjalan lancar
+                      Collaborated with frontend team in ensuring smooth system
+                      integration.
                     </li>
                     <li>
-                      Mengadopsi teknologi baru untuk meningkatkan efisiensi
-                      pengembangan
+                      Adopted new technologies to improve development
+                      efficiency.
                     </li>
                     <li>
-                      Mengembangkan REST API untuk kebutuhan internal dan
-                      manajemen data
+                      Developed REST API for data management and internal needs.
                     </li>
                     <li>
-                      Membuat dokumentasi teknis agar tim lain mudah memahami
-                      API
+                      Formulated technical documentation to help the team
+                      understand the API.
                     </li>
                   </ul>
                 </div>
@@ -336,11 +334,10 @@ function App() {
                 </div>
 
                 <div className="w-full text-gray-200 leading-relaxed text-justify text-xs">
-                  Platform yang memudahkan pengguna untuk memesan atau reservasi
-                  tiket bus untuk perjalanan mereka dengan mudah dan efisien.
-                  Platform ini menawarkan fitur seperti pemesanan tiket,
-                  pemilihan tempat duduk, serta pengelolaan aspek bisnis
-                  transportasi.
+                  The platform was created with the goal to provide greater ease
+                  and efficiency in bus ticket reservation and purchase. This
+                  platform offers various features, such as ticket reservation,
+                  seating plan, and the transportation business management.
                 </div>
 
                 <div className="flex flex-wrap gap-2 pt-2">
@@ -398,12 +395,12 @@ function App() {
                 </div>
 
                 <div className="w-full text-gray-200 leading-relaxed text-justify text-xs">
-                  Platform sistem presensi siswa berbasis web yang terintegrasi
-                  dengan teknologi RFID untuk memudahkan pencatatan kehadiran di
-                  sekolah secara cepat dan efisien. Sistem ini menyediakan fitur
-                  seperti pencatatan presensi otomatis menggunakan kartu RFID,
-                  pengelolaan data siswa, serta pembuatan dan pengelolaan
-                  laporan presensi.
+                  This platform is a website based student attendance system
+                  that is integrated with RFID technology to improve the
+                  efficiency of a school's student attendance recording. This
+                  system provides numerous features, such as automatic
+                  attendance record through RFID cards, students' data
+                  management, and the creation of attendance reports.
                 </div>
 
                 <div className="flex flex-wrap gap-2 pt-2">
@@ -488,16 +485,16 @@ function App() {
 
                   <ul className="list-disc list-outside pl-4 mt-2 text-xs text-gray-300 space-y-1">
                     <li>
-                      Berpartisipasi dalam penyelenggaraan event budaya Jepang
-                      di sekolah
+                      Participated in organizing Japanese cultural events at
+                      school.
                     </li>
                     <li>
-                      Menyiapkan dan membantu distribusi perlengkapan yang
-                      dibutuhkan selama acara berlangsung
+                      Prepared and assisted in distributing equipment needed
+                      during the event.
                     </li>
                     <li>
-                      Menjadi MC dalam acara penyambutan guru tamu (Sensei) dari
-                      Jepang
+                      Served as an MC during the welcoming event for guest
+                      teachers (Sensei) from Japan.
                     </li>
                   </ul>
                 </div>
