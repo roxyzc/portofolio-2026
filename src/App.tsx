@@ -299,7 +299,6 @@ function App() {
                   <h4 className="font-semibold text-white">
                     Bus Management System - Ticket Reservation
                   </h4>
-                  ev
                   <p className="text-xs text-gray-400">Juni 2023 - Juli 2023</p>
                   <div className="flex flex-wrap gap-3 text-xs text-indigo-300">
                     <a
