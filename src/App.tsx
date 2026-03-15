@@ -85,7 +85,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-full lg:flex-2 lg:overflow-y-auto gap-5 border border-white/20 rounded-2xl p-6 text-white bg-white/10 backdrop-blur-sm shadow-xl scrollbar-hide">
+        <div className="w-full lg:flex-2 lg:h-full overflow-y-auto scroll-smooth gap-5 border border-white/20 rounded-2xl p-6 text-white bg-white/10 backdrop-blur-sm shadow-xl scrollbar-hide">
           <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
               About
@@ -327,7 +327,7 @@ function App() {
                       target="_blank"
                       className="hover:text-indigo-400 transition"
                     >
-                      Dokumentasi
+                      Documentation
                     </a>
                   </div>
                 </div>
@@ -415,7 +415,7 @@ function App() {
                   <span className="px-2 py-1 text-[10px] bg-yellow-500/20 text-yellow-300 rounded-md border border-yellow-500/30">
                     MySQL
                   </span>
-                  <span className="px-2 py-1 text-[10px] bg-red-500/20 text-red-300 rounded-md border border-red-500/30">
+                  <span className="px-2 py-1 text-[10px] bg-orange-500/20 text-orange-300 rounded-md border border-orange-500/30">
                     Express
                   </span>
                 </div>
@@ -435,27 +435,29 @@ function App() {
                   </h4>
 
                   <p className="text-xs text-gray-400">
-                    IPK : 3.75/4.0 • 2021 - 2025
+                    GPA : 3.75/4.0 • 2021 - 2025
                   </p>
 
                   <p className="text-xs text-indigo-300 mt-1">
-                    Teknik Informatika
+                    Bachelor of Computer Science (Informatics Engineering)
                   </p>
                 </div>
 
                 <div className="w-full md:flex-3">
-                  <h4 className="font-semibold text-white"> Tugas Akhir </h4>
+                  <h4 className="font-semibold text-white"> Final Project </h4>
 
                   <p className="text-xs text-gray-400">
                     2024 - 2025 • Bekasi, Indonesia
                   </p>
 
                   <p className="text-xs text-indigo-300 mt-1">
-                    Rancang Bangun Sistem Presensi Kehadiran Siswa Menggunakan
-                    Teknologi RFID Di SDN Sukamanah 01 Dengan Metode Prototype
+                    Design and Development of a Student Attendance System Using
+                    RFID Technology at SDN Sukamanah 01 Based on the Prototype
+                    Method
                   </p>
                 </div>
               </div>
+
               <div className="flex flex-row gap-6 py-4">
                 <div className="w-full md:flex-2">
                   <h4 className="font-semibold text-white">
@@ -465,13 +467,13 @@ function App() {
                   <p className="text-xs text-gray-400">2019 - 2021</p>
 
                   <p className="text-xs text-indigo-300 mt-1">
-                    Teknik komputer dan Jaringan
+                    Computer and Network Engineering
                   </p>
                 </div>
 
                 <div className="w-full md:flex-3">
                   <h4 className="font-semibold text-white">
-                    Ekstrakurikuler Bahasa Jepang
+                    Japanese Language Extracurricular
                   </h4>
 
                   <p className="text-xs text-gray-400">
@@ -479,7 +481,7 @@ function App() {
                   </p>
 
                   <p className="text-xs text-indigo-300 mt-1">
-                    Anggota & Logistik Acara
+                    Member & Event Logistics
                   </p>
 
                   <ul className="list-disc list-outside pl-4 mt-2 text-xs text-gray-300 space-y-1">
@@ -502,12 +504,12 @@ function App() {
           </div>
           <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
-              Skill
+              Skills
             </h2>
             <div className="text-sm py-3">
               <div className="flex flex-row gap-6 py-4">
                 <div className="w-full md:flex-2">
-                  <h4 className="font-semibold text-white">Bahasa</h4>
+                  <h4 className="font-semibold text-white">Languages</h4>
 
                   <ul className="list-disc list-outside pl-4 mt-2 text-xs text-gray-300 space-y-1">
                     <li>Indonesia</li>
@@ -516,7 +518,7 @@ function App() {
                 </div>
 
                 <div className="w-full md:flex-3">
-                  <h4 className="font-semibold text-white">Teknologi</h4>
+                  <h4 className="font-semibold text-white">Technologies</h4>
 
                   <ul className="list-disc list-outside pl-4 mt-2 text-xs text-gray-300 space-y-1">
                     <li>HTML</li>
@@ -535,19 +537,20 @@ function App() {
           </div>
           <div className="flex flex-col py-3">
             <h2 className="text-lg font-bold  mb-2 tracking-widest border-b-2 border-white/20 py-2 border-s-6 px-3">
-              Certification
+              Certifications
             </h2>
             <div className="text-sm py-3">
               <div className="flex gap-6 py-4 border-b border-white/10 border-dashed">
                 <div className="w-full md:flex-2">
                   <h4 className="font-semibold text-white">
-                    Ahli K3 Umum (AK3U)
+                    General Occupational Health and Safety Expert (Ahli K3 Umum
+                    / AK3U)
                   </h4>
 
                   <p className="text-xs text-gray-400">
-                    Pembinaan: 12 Februari - 2 Maret 2026
+                    Training: 12 Februari - 2 Maret 2026
                   </p>
-                  <p className="text-xs text-gray-400">Expired: 2026 - 2029</p>
+                  <p className="text-xs text-gray-400">Valid: 2026 - 2029</p>
 
                   <p
                     className="text-xs text-indigo-300 mt-1 cursor-pointer hover:text-indigo-200 hover:scale-101 transition duration-300 ease-in-out"
@@ -555,7 +558,7 @@ function App() {
                       window.open("https://temank3.kemnaker.go.id/", "_blank")
                     }
                   >
-                    Kementerian Ketenagakerjaan Republik Indonesia (Kemnaker)
+                    Ministry of Manpower of the Republic of Indonesia (Kemnaker)
                   </p>
                 </div>
               </div>
