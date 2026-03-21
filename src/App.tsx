@@ -1,4 +1,4 @@
-import anime from "./assets/anime.jpg";
+import foto from "./assets/foto.png";
 import CV from "./assets/CV.pdf";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <div className="w-full lg:flex-3 flex items-center justify-center py-8 lg:py-0">
           <div className="flex flex-col items-center text-center gap-2.5">
             <img
-              src={anime}
+              src={foto}
               className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full border-6 border-white/20 cursor-pointer"
             />
 
