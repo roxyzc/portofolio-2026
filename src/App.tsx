@@ -1,4 +1,4 @@
-import foto from "./assets/foto.png";
+import foto from "./assets/foto_2.png";
 import CV from "./assets/CV.pdf";
 
 function App() {
