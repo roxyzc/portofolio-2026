@@ -1,6 +1,6 @@
 import { useEffect, useState, type MouseEvent } from "react";
 import foto from "./assets/foto_2.png";
-import CV from "./assets/CV.pdf";
+import CV from "./assets/CV_Ridho_Pikriyansyah.pdf";
 
 const experience = [
   {
