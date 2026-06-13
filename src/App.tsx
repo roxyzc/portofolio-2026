@@ -4,7 +4,19 @@ import CV from "./assets/CV_Ridho_Pikriyansyah.pdf";
 
 const experience = [
   {
-    title: "Web Developer · PT. Trainers Management Indonesia",
+    title: "IT Specialist · Full-time · PT. Trainers Management Indonesia",
+    location: "Bekasi, Indonesia • On Site",
+    date: "2026",
+    description: [
+      "Contributed to technology selection and system architecture planning.",
+      "Worked closely with cross-functional teams to ensure alignment with client requirements.",
+      "Led discussions on system workflows and technical specifications in project meetings.",
+      "Designed, implemented, and maintained database structures to support business applications.",
+    ],
+  },
+  {
+    title:
+      "IT And Web Innovation  · Internship · PT. Trainers Management Indonesia",
     location: "Bekasi, Indonesia • On Site",
     date: "2025 - 2026",
     description: [
@@ -21,7 +33,7 @@ const experience = [
     ],
   },
   {
-    title: "Backend Developer · PT. Sadaya Teknologi Indonesia",
+    title: "Backend Developer · Part-time · PT. Sadaya Teknologi Indonesia",
     location: "Bekasi, Indonesia • On Site",
     date: "2025 - 2026",
     description: [
@@ -30,7 +42,7 @@ const experience = [
     ],
   },
   {
-    title: "Backend Developer · PT. Linkdataku Solusi",
+    title: "Backend Developer  · Internship · PT. Linkdataku Solusi",
     location: "Jakarta, Indonesia • MSIB Remote",
     date: "2024",
     description: [
@@ -42,7 +54,7 @@ const experience = [
     ],
   },
   {
-    title: "Backend Developer · Universitas Pelita Bangsa (Freelance)",
+    title: "Backend Developer  · Part-time · Universitas Pelita Bangsa",
     location: "Bekasi, Indonesia • Hybrid",
     date: "2023 - 2024",
     description: [
