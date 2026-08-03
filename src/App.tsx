@@ -924,7 +924,30 @@ function App() {
                       </p>
 
                       <div className="flex flex-wrap gap-2">
-                        {["Express.js", "NestJS", "Laravel", "REST API"].map(
+                        {[
+                          "Express.js",
+                          "NestJS",
+                          "Laravel",
+                          "CodeIgniter",
+                          "REST API",
+                        ].map((skill) => (
+                          <span
+                            key={skill}
+                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Frontend
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["React.js", "Tailwind", "HTML", "CSS"].map(
                           (skill) => (
                             <span
                               key={skill}
@@ -939,28 +962,11 @@ function App() {
 
                     <div>
                       <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
-                        Frontend
-                      </p>
-
-                      <div className="flex flex-wrap gap-2">
-                        {["React", "HTML", "CSS"].map((skill) => (
-                          <span
-                            key={skill}
-                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
-                          >
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-
-                    <div>
-                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
                         Database
                       </p>
 
                       <div className="flex flex-wrap gap-2">
-                        {["MySQL"].map((skill) => (
+                        {["MySQL", "PostgreSQL"].map((skill) => (
                           <span
                             key={skill}
                             className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
