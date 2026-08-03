@@ -4,65 +4,71 @@ import CV from "./assets/CV_Ridho_Pikriyansyah_new.pdf";
 
 const experience = [
   {
-    title: "IT Specialist · Full-time · PT. Trainers Management Indonesia",
-    location: "Bekasi, Indonesia • On Site",
-    date: "2026",
+    title:
+      "IT Specialist & Software Engineer · Full-time · PT. Trainers Management Indonesia",
+    location: "Bekasi, Indonesia • On-site",
+    date: "May 2026 – Present",
     description: [
-      "Contributed to technology selection and system architecture planning.",
-      "Worked closely with cross-functional teams to ensure alignment with client requirements.",
-      "Led discussions on system workflows and technical specifications in project meetings.",
-      "Designed, implemented, and maintained database structures to support business applications.",
+      "Planned, developed, and maintained the company's IT infrastructure to support secure and efficient business operations.",
+      "Developed Halo AI, an AI-powered solution to improve customer service responsiveness and overall service quality.",
+      "Designed, deployed, and maintained Linux VPS servers, including application deployment and server administration.",
+      "Implemented GitHub Actions to automate frontend build and deployment processes.",
+      "Collaborated with external vendors to ensure successful delivery of internal technology projects.",
+      "Developed and maintained the company's website to support ISO 9001 documentation and business requirements.",
+      "Provided technical support while monitoring and evaluating production systems to ensure reliability and performance.",
     ],
   },
   {
     title:
-      "IT And Web Innovation  · Internship · PT. Trainers Management Indonesia",
-    location: "Bekasi, Indonesia • On Site",
-    date: "2025 - 2026",
+      "IT & Web Innovation · Internship · PT. Trainers Management Indonesia",
+    location: "Bekasi, Indonesia • On-site",
+    date: "Nov 2025 – May 2026",
     description: [
-      "Developed and optimized the company’s website by introducing page caching mechanisms, reducing load times and improving overall site performance and user experience.",
-      "Participated in the planning and implementation of the division's policies.",
-      "Designed the new internal management website to replace the old system and improve its efficiency.",
-      "Implemented and facilitated training for Halo AI in the Marketing & Sales division, increasing the team’s capacity to handle customer inquiries by over 50% and improving overall response efficiency.",
-      "Optimized the website's content and features to support product marketing.",
-      "Learned and implemented new technologies to support system development.",
-      "Formulated technical documentation to help the team understand the API.",
-      "Designed logos and visual assets for internal platforms such as LSP and LMS.",
-      "Coordinated with external vendors to ensure smooth execution of internal projects.",
-      "Designed and developed a website to support operational activities.",
+      "Optimized the company's website by implementing page caching, significantly improving loading speed and user experience.",
+      "Participated in planning and implementing departmental technology initiatives.",
+      "Designed and developed an internal management system to replace legacy workflows and improve operational efficiency.",
+      "Built web-based systems to support participant management and operational activities for the K3 division.",
+      "Conducted Halo AI training sessions for the Marketing & Sales team, increasing customer inquiry handling efficiency by more than 80%.",
+      "Researched and adopted new technologies to support software development.",
+      "Produced REST API technical documentation to improve team collaboration.",
+      "Designed branding assets, including logos and visual identities for LMS and LSP platforms.",
+      "Coordinated with external vendors throughout project implementation.",
     ],
   },
   {
     title: "Backend Developer · Part-time · PT. Sadaya Teknologi Indonesia",
-    location: "Bekasi, Indonesia • On Site",
-    date: "2025 - 2026",
+    location: "Bekasi, Indonesia • On-site",
+    date: "Dec 2025 – Present",
     description: [
-      "Assisted in preparing documentation for system requirements.",
-      "Participated in system design and technology selection process.",
+      "Participated in technology selection and backend system architecture discussions.",
+      "Collaborated with cross-functional teams to translate business requirements into technical solutions.",
+      "Contributed to project planning by discussing workflows and technical specifications.",
+      "Designed and maintained relational database structures for business applications.",
     ],
   },
   {
-    title: "Backend Developer  · Internship · PT. Linkdataku Solusi",
-    location: "Jakarta, Indonesia • MSIB Remote",
-    date: "2024",
+    title:
+      "Backend Developer · Internship · PT. Linkdataku Solusi Indonesia (MAXY Academy)",
+    location: "Jakarta, Indonesia • Remote (MSIB Batch 7)",
+    date: "Sep 2024 – Dec 2024",
     description: [
-      "Led four divisions and bridged communication with clients to ensure projects' timely completion.",
-      "Designed and developed system through Model-View Controller (MVC) by using Laravel.",
-      "Designed and managed MySQL database, including relational database and database migration.",
-      "Collaborated in a team to complete capstone project based on real-life business study case.",
-      "Managed and distributed assignments to each member to ensure projects' timely completion.",
+      "Led collaboration across UI/UX, Frontend, Backend, and Marketing teams while coordinating directly with clients.",
+      "Designed and developed web applications using Laravel MVC architecture.",
+      "Designed relational databases and managed MySQL database migrations.",
+      "Collaborated on a capstone project based on real-world business case studies.",
+      "Managed task distribution and project progress to ensure on-time delivery.",
     ],
   },
   {
-    title: "Backend Developer  · Part-time · Universitas Pelita Bangsa",
+    title: "Backend Developer · Project-Based · Universitas Pelita Bangsa",
     location: "Bekasi, Indonesia • Hybrid",
-    date: "2023 - 2024",
+    date: "Sep 2023 – Jun 2024",
     description: [
-      "Designed and developed database from scratch that entails normalization and relational database.",
-      "Collaborated with frontend team in ensuring smooth system integration.",
-      "Adopted new technologies to improve development efficiency.",
-      "Developed REST API for data management and internal needs.",
-      "Formulated technical documentation to help the team understand the API.",
+      "Designed and developed RESTful APIs for internal systems and data management.",
+      "Collaborated with developers to ensure seamless backend and frontend integration.",
+      "Participated in system architecture and technology selection discussions.",
+      "Designed and maintained relational database structures.",
+      "Produced technical documentation for REST APIs to support development teams.",
     ],
   },
 ];
@@ -497,7 +503,106 @@ function App() {
                         </li>
                         <li className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            Codeigniter
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100! lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="z-10 sm:col-span-8">
+                      <h3>
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                          href="https://tiket-id.vercel.app/"
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label="Bus Management System"
+                        >
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>Tracking.id (RBAC)</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 motion-reduce:transition-none"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                              clipRule="evenodd"
+                            ></path>
+                          </svg>
+                        </a>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal text-slate-400">
+                        Tracking.id is a web-based administration system that
+                        streamlines user management with a secure Role-Based
+                        Access Control (RBAC) implementation. The platform
+                        provides authentication, authorization, role and
+                        permission management, and activity monitoring, ensuring
+                        a scalable and well-organized backend architecture
+                        suitable for enterprise applications.
+                      </p>
+                      <ul className="mt-4 flex flex-wrap gap-3 text-xs font-medium text-slate-300 relative z-10">
+                        <li>
+                          <a
+                            href="https://github.com/roxyzc/Role-Based-Admin-Dashboard"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-1.5 hover:text-teal-300 transition-colors bg-slate-800/50 hover:bg-slate-800 px-3 py-1.5 rounded-full ring-1 ring-white/10"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="w-3.5 h-3.5"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.43 7.86 10.96.57.1.78-.25.78-.55v-1.93c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.27-5.24-5.67 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.8 0c2.21-1.48 3.18-1.17 3.18-1.17.62 1.57.23 2.73.11 3.02.73.8 1.18 1.82 1.18 3.07 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"></path>
+                            </svg>
+                            GitHub
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://drive.google.com/file/d/10flX8yWEdxU42amnHj9ZB2nBG9JqdvCi/view"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-1.5 hover:text-teal-300 transition-colors bg-slate-800/50 hover:bg-slate-800 px-3 py-1.5 rounded-full ring-1 ring-white/10"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="w-3.5 h-3.5"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                            >
+                              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                            </svg>
+                            Demo
+                          </a>
+                        </li>
+                      </ul>
+                      <ul
+                        className="mt-4 flex flex-wrap"
+                        aria-label="Technologies used"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                             Laravel
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            Tailwind
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            MySQL
                           </div>
                         </li>
                       </ul>
@@ -649,34 +754,94 @@ function App() {
                   Education & Skills
                 </h2>
               </div>
+
               <ul className="group/list">
                 <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100! lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="2021 to 2025"
-                    >
-                      2021 - 2025
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                      2026 – Present
                     </header>
+
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        Tempat Belajar
+                      </h3>
+
+                      <p className="mt-1 text-sm text-teal-300">
+                        Professional Business Development
+                      </p>
+
+                      <div className="mt-4">
+                        <h4 className="font-medium text-sm text-slate-300">
+                          Key Learnings
+                        </h4>
+                        <ul className="mt-2 list-disc pl-5 space-y-1 text-sm text-slate-400">
+                          <li>
+                            Mastered end-to-end BD frameworks, including
+                            Business Model Canvas (BMC), SWOT, PEST, and
+                            Porter's Five Forces for strategic analysis.
+                          </li>
+                          <li>
+                            Learned B2B/B2C lead generation and prospecting
+                            techniques using AI-powered tools such as Apollo.io,
+                            LinkedIn Sales Navigator, and CRM workflows.
+                          </li>
+                          <li>
+                            Developed Go-To-Market (GTM) strategies,
+                            consultative sales pitching, negotiation, and client
+                            retention/CLV optimization.
+                          </li>
+                          <li>
+                            Executed end-to-end Business Development study cases
+                            involving market research, unit economics, and
+                            strategic partnership proposals.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                      2021 – 2025
+                    </header>
+
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
                         Universitas Pelita Bangsa
                       </h3>
-                      <p className="mt-1 text-sm leading-normal text-teal-300">
-                        Bachelor of Computer Science (Informatics Engineering)
+
+                      <p className="mt-1 text-sm text-teal-300">
+                        Bachelor of Computer Science
                       </p>
-                      <p className="mt-2 text-sm leading-normal text-slate-400">
-                        GPA: 3.75/4.0
+
+                      <p className="text-sm text-slate-400">
+                        Major in Informatics
                       </p>
+
+                      <p className="mt-2 text-sm text-slate-400">
+                        GPA: <strong>3.75 / 4.00</strong>
+                      </p>
+
                       <div className="mt-4">
-                        <h4 className="font-medium text-slate-300 text-sm">
+                        <h4 className="font-medium text-sm text-slate-300">
                           Final Project
                         </h4>
+
                         <p className="mt-1 text-sm text-slate-400">
-                          Design and Development of a Student Attendance System
-                          Using RFID Technology at SDN Sukamanah 01 Based on the
-                          Prototype Method
+                          <strong>RFID-Based Student Attendance System</strong>
+                        </p>
+
+                        <p className="mt-1 text-sm text-slate-400">
+                          Designed and developed a web-based student attendance
+                          system integrated with RFID technology using the
+                          Prototype development methodology.
                         </p>
                       </div>
                     </div>
@@ -684,118 +849,206 @@ function App() {
                 </li>
 
                 <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100! lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="2019 to 2021"
-                    >
-                      2019 - 2021
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                    <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                      2019 – 2021
                     </header>
+
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
                         SMKN 1 Cikarang Barat
                       </h3>
-                      <p className="mt-1 text-sm leading-normal text-teal-300">
+
+                      <p className="mt-1 text-sm text-teal-300">
                         Computer and Network Engineering
                       </p>
+
                       <div className="mt-4">
-                        <h4 className="font-medium text-slate-300 text-sm">
-                          Japanese Language Extracurricular
+                        <h4 className="font-medium text-sm text-slate-300">
+                          Japanese Language Club
                         </h4>
-                        <ul className="mt-1 list-disc pl-4 text-sm leading-normal space-y-1 text-slate-400">
+
+                        <ul className="mt-2 list-disc pl-5 space-y-1 text-sm text-slate-400">
                           <li>
-                            Participated in organizing Japanese cultural events
-                            at school (Member & Logistics)
+                            Organized Japanese cultural festivals as part of the
+                            logistics committee.
                           </li>
                           <li>
-                            Prepared and assisted in distributing equipment
-                            required during the events.
+                            Prepared and managed event equipment during school
+                            activities.
                           </li>
                           <li>
-                            Served as an MC during the welcoming event for guest
-                            teachers (Sensei) from Japan.
+                            Served as Master of Ceremony (MC) for welcoming
+                            Japanese guest teachers.
                           </li>
                         </ul>
-                        <p></p>
                       </div>
                     </div>
                   </div>
                 </li>
               </ul>
 
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-12">
+              <div className="mt-10 grid gap-12 lg:grid-cols-2">
+                {/* Skills */}
+
                 <div>
-                  <h3 className="text-sm font-bold uppercase tracking-widest text-slate-200 mb-4">
-                    Skills & Tech
+                  <h3 className="mb-5 text-sm font-bold uppercase tracking-widest text-slate-200">
+                    Technical Skills
                   </h3>
-                  <ul className="flex flex-wrap" aria-label="Technologies used">
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        HTML
+
+                  <div className="space-y-5">
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Programming Languages
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["JavaScript", "TypeScript", "Go", "PHP"].map(
+                          (skill) => (
+                            <span
+                              key={skill}
+                              className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                            >
+                              {skill}
+                            </span>
+                          ),
+                        )}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        CSS
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Backend
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["Express.js", "NestJS", "Laravel", "REST API"].map(
+                          (skill) => (
+                            <span
+                              key={skill}
+                              className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                            >
+                              {skill}
+                            </span>
+                          ),
+                        )}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        React
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Frontend
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["React", "HTML", "CSS"].map((skill) => (
+                          <span
+                            key={skill}
+                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        JavaScript
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Database
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["MySQL"].map((skill) => (
+                          <span
+                            key={skill}
+                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        TypeScript
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        DevOps
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {[
+                          "Docker",
+                          "Git",
+                          "GitHub Actions",
+                          "CI/CD",
+                          "Linux",
+                          "SSH",
+                        ].map((skill) => (
+                          <span
+                            key={skill}
+                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Node.js
+                    </div>
+
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-wider text-slate-500">
+                        Tools
+                      </p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {["Postman", "Figma", "ChatGPT"].map((skill) => (
+                          <span
+                            key={skill}
+                            className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300"
+                          >
+                            {skill}
+                          </span>
+                        ))}
                       </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        Express
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        NestJs
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                        MySQL
-                      </div>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
+
+                {/* Certifications */}
+
                 <div>
-                  <h3 className="text-sm font-bold uppercase tracking-widest text-slate-200 mb-4">
+                  <h3 className="mb-5 text-sm font-bold uppercase tracking-widest text-slate-200">
                     Certifications
                   </h3>
-                  <div className="mb-6">
-                    <h4 className="font-medium text-slate-200 leading-snug">
-                      General Occupational Health and Safety Expert (AK3U)
-                    </h4>
-                    <p className="text-sm text-slate-400 mt-1">
-                      Ministry of Manpower of the Republic of Indonesia
-                    </p>
-                    <p className="text-sm text-slate-500 mt-1">2026 - 2029</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-slate-200 leading-snug">
-                      Course Java (OOP)
-                    </h4>
-                    <p className="text-sm text-slate-400 mt-1">Solo Learn</p>
-                    <p className="text-sm text-slate-500 mt-1">Issued: 2022</p>
+
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="font-medium text-slate-200">
+                        Assistant Web Developer
+                      </h4>
+
+                      <p className="mt-1 text-sm text-slate-400">
+                        National Professional Certification Agency (BNSP)
+                      </p>
+
+                      <p className="mt-1 text-sm text-slate-500">
+                        Valid: 2026 – 2029
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-medium text-slate-200">
+                        General Occupational Health & Safety Expert (AK3U)
+                      </h4>
+
+                      <p className="mt-1 text-sm text-slate-400">
+                        Ministry of Manpower of the Republic of Indonesia
+                      </p>
+
+                      <p className="mt-1 text-sm text-slate-500">
+                        Valid: 2026 – 2029
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
