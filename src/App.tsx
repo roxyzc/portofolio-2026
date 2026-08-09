@@ -224,7 +224,33 @@ const projects = [
       },
     ],
   },
+  {
+    title: "Portofolio Website Personal (Interactive Developer Portfolio)",
+    description:
+      "Website portofolio interaktif dan responsif yang menampilkan profil profesional, pengalaman kerja, projek-projek unggulan, pendidikan, keterampilan teknis, serta sertifikasi. Dirancang dengan estetika modern dark mode dan efisiensi performa tinggi.",
+    features: [
+      "Desain UI modern dark mode dengan efek pencahayaan interaktif (radial gradient mouse glow)",
+      "Navigasi dinamis aktif menggunakan Intersection Observer API",
+      "Layout responsif penuh yang dioptimalkan untuk perangkat mobile, tablet, dan desktop",
+      "Tautan langsung ke repositori GitHub, demo projek, dokumentasi API, dan unduh CV PDF",
+      "Otomasi pipeline build dan deployment instan melalui platform Vercel",
+    ],
+    tech: ["React.js", "TypeScript", "Vite", "Tailwind CSS", "Vercel"],
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/roxyzc/portofolio-2026",
+        type: "github",
+      },
+      {
+        name: "Visit",
+        url: "https://ridhopikriyansyah.vercel.app/",
+        type: "visit",
+      },
+    ],
+  },
 ];
+
 
 const educationList = [
   {
